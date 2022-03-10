@@ -1,0 +1,7 @@
+language: java
+deploy:
+  provider: heroku
+  api-key:
+    secure: dfba77f5-4d2c-4252-9739-69b9a7de6f2c
+  app: cstore-api
+dist: trusty
